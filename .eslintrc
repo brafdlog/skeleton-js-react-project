@@ -1,0 +1,12 @@
+{
+	"extends": "eslint-config-airbnb",
+	"rules": {
+		"no-var": 0,
+		"indent": [2, "tab"],
+		"react/sort-comp": 0,
+		"comma-dangle": [2, 'never'],
+		// Error when unused variables. No error for unused function arguments
+		"no-unused-vars": [2, {"vars": "all", "args": "none"}],
+		"one-var": [0, "always"]
+	}
+}
